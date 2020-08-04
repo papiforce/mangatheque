@@ -1,0 +1,141 @@
+/*/////////////////////////////
+// PROFIL
+////////////////////////////*/
+
+.profile-container {
+  margin: 75px 12px;
+}
+
+.profile-container .user-block {
+  background: #fff;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 3.75rem;
+}
+
+.profile-container .user-block img {
+  width: 40%;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin-right: 20px;
+}
+
+.profile-container .user-block .user-infos {
+  color: #000;
+  margin-left: 20px;
+  width: 50%;
+}
+
+.profile-container .user-block .user-infos p a i {
+  float: right;
+  color: #000;
+  font-size: 1em;
+}
+
+.profile-container .searchbar {
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 3.75rem;
+}
+
+.profile-container .searchbar form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-container .searchbar form input {
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.profile-container .searchbar form button:hover {
+  cursor: pointer;
+}
+
+.profile-container .data-block {
+  background: #fff;
+  color: #000;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 3.75rem;
+}
+
+.profile-container .data-block p i {
+  float: right;
+}
+
+.profile-container .data-block p i:hover {
+  cursor: pointer;
+}
+
+/*/////////////////////////////
+// PARAMETRES
+////////////////////////////*/
+
+.settings-container {
+  margin: 75px 12px;
+}
+
+.settings-container h2 a i {
+  float: left;
+  color: #fff;
+  font-size: 0.75em;
+}
+
+.settings-container .settings-block {
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 3.75rem;
+}
+
+.settings-container .settings-block p {
+  padding: 12px;
+  background: #6abc6d;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.settings-container .settings-block p i {
+  float: right;
+}
+
+.settings-container .settings-block p i:hover {
+  cursor: pointer;
+}
+
+.settings-container .settings-block img {
+  width: 40%;
+  border-radius: 50%;
+  border: 3px solid #000;
+}
+
+.settings-container .settings-block form {
+  width: 50%;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-container .settings-block form input {
+  margin-bottom: 15px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.settings-container .settings-block form button {
+  padding: 8px 0;
+}
+
+.settings-container .settings-block form button:hover {
+  cursor: pointer;
+}

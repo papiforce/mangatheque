@@ -1,0 +1,40 @@
+/*///////////////////
+// LOGIN & REGISTER CSS
+///////////////////*/
+
+.login-block, .register-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-block form, .register-block form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-block form input,
+.register-block form input {
+  margin-bottom: 15px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.login-block form a,
+.register-block form a {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.login-block form button,
+.register-block form button {
+  padding: 8px 0;
+}
+
+.register-block form button {
+  margin-top: 15px;
+}
+
+.login-block form button:hover,
+.register-block form button:hover {
+  cursor: pointer;
+}

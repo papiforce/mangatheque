@@ -1,0 +1,177 @@
+/*/////////////////////////////
+// GENERAL
+////////////////////////////*/
+
+.dashboard-container {
+  margin: 75px 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboard-container div {
+  margin-right: 40px;
+}
+
+.dashboard-container .mangas-list,
+.dashboard-container .users-list {
+  width: 30%;
+  color: #000;
+  background: #fff;
+  padding: 20px;
+  border-radius: 2em;
+}
+
+.dashboard-container .mangas-list h3,
+.dashboard-container .users-list h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.dashboard-container .mangas-list h3 a i {
+  float: right;
+  color: #000;
+}
+
+.dashboard-container .mangas-list .list-element {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.dashboard-container .mangas-list .list-element p span,
+.dashboard-container .users-list .list-element p span {
+  float: right;
+}
+
+.dashboard-container .mangas-list .list-element p span a,
+.dashboard-container .users-list .list-element p span a {
+  color: #000;
+}
+
+.dashboard-container .mangas-list .list-element p span i,
+.dashboard-container .users-list .list-element p span i {
+  margin: 0 5px;
+}
+
+.dashboard-container .mangas-list .list-element p span i:hover,
+.dashboard-container .users-list .list-element p span i:hover {
+  cursor: pointer;
+}
+
+/*/////////////////////////////
+// EDIT
+////////////////////////////*/
+
+.edit-container {
+  margin: 75px 12px;
+  text-align: center;
+}
+
+.edit-container h2 a {
+  float: left;
+  color: #fff;
+}
+
+.edit-container p {
+  padding: 12px;
+  background: #6abc6d;
+  width: 15%;
+  margin: 15px auto;
+}
+
+.edit-container p i {
+  float: right;
+}
+
+.edit-container p i:hover {
+  cursor: pointer;
+}
+
+.edit-container form {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-container form input {
+  margin-bottom: 15px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.edit-container form textarea {
+  margin-bottom: 15px;
+}
+
+.edit-container form select {
+  margin-bottom: 15px;
+  padding: 8px 0;
+}
+
+.edit-container form button {
+  padding: 8px 0;
+}
+
+.edit-container form button:hover {
+  cursor: pointer;
+}
+
+/*/////////////////////////////
+// CREATE
+////////////////////////////*/
+
+.create-container {
+  margin: 75px 12px;
+  text-align: center;
+}
+
+.create-container h2 a {
+  float: left;
+  color: #fff;
+}
+
+.create-container p {
+  padding: 12px;
+  background: #6abc6d;
+  width: 25%;
+  margin: 15px auto;
+}
+
+.create-container p i {
+  float: right;
+}
+
+.create-container p i:hover {
+  cursor: pointer;
+}
+
+.create-container form {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-container form input {
+  margin-bottom: 15px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.create-container form textarea {
+  margin-bottom: 15px;
+}
+
+.create-container form select {
+  margin-bottom: 15px;
+  padding: 8px 0;
+}
+
+.create-container form button {
+  padding: 8px 0;
+}
+
+.create-container form button:hover {
+  cursor: pointer;
+}

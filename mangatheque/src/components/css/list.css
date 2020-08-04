@@ -1,0 +1,74 @@
+/*/////////////////////////////
+// LIST
+////////////////////////////*/
+
+.list-container {
+  margin: 75px 12px;
+}
+
+.list-container .list-element {
+  background: #fff;
+  color: #000;
+  padding: 12px;
+  width: 40%;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+}
+
+.list-container .list-element a {
+  color: #11325b;
+  text-decoration: none;
+}
+
+.list-container .list-element a:hover {
+  text-decoration: underline;
+}
+
+.list-container .list-element img {
+  width: 15%;
+  margin-right: 12px;
+}
+
+.list-container .list-element .element-infos {
+  width: 85%;
+}
+
+/*/////////////////////////////
+// DETAIL
+////////////////////////////*/
+
+.detail-container {
+  margin: 75px 12px;
+}
+
+.detail-container h2 i {
+  color: #fff;
+  float: left;
+}
+
+.detail-container .detail-block {
+  background: #fff;
+  color: #000;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  padding: 12px;
+}
+
+.detail-container .detail-block img {
+  width: 25%;
+  margin-right: 20px;
+}
+
+.detail-container .detail-block .detail-infos p b {
+  margin-right: 50px;
+}
+
+.detail-container .detail-synopsis {
+  background: #fff;
+  color: #000;
+  width: 50%;
+  margin: 15px auto;
+  padding: 12px;
+}

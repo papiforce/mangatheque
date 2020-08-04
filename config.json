@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb://localhost/manga",
+    "secret": "8nvUmusZ2qpLAH9XdOvn8LyUwi"
+}
